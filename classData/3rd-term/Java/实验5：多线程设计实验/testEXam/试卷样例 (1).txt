@@ -1,0 +1,248 @@
+面向对象程序设计技术（Java）单元测试试卷
+一、单选题（共5题，每题1分，共5分）
+1、以下属于Java关键字的是（ D）。
+A.NULL
+B.IF
+C.DO
+D.while
+2、在Java语言中，用package语句说明一个类所在的包时，该包的层次结构必须(  B)。
+A.与文件的结构相同
+B.与文件目录的层次相同
+C.与文件类型相同
+D.与文件大小相同
+3、下列语句中，属于多分支语句的是(   B )。
+A.if语句
+B.switch语句
+C.do while语句
+D.for语句
+4、在Java语言中，所有类的根类是(    D)。
+A.java.awt.Frame
+B.java.lang.Class
+C.java.applet.Applet
+D.java.lang.Object
+5、Java编程默认的引用包为(   B )。
+A.java.sys包
+B.java.lang包
+C.java.new包
+D.java.util包
+6、计算表达式（10 / 3）* 2 % 5（A）
+A.1
+B.2
+C.3
+D.4
+7、假定有x和y为整型，其值分别为20和3，则(double)x/y的值是（ C）
+A.6
+B.6.0
+C.6.666666666666667
+D.20
+8、设有定义int a = 2 , b = 3 , c = 4，执行结果为true是（ C）
+A. (a > b)&&(b > c)
+B. !(a > b)&&(b > c)
+C. !(a > b)&&!(b > c)
+D. (a > b)||(b > c)
+9、运行以下代码，运行结果是（ C ）
+int x=10;
+If(x!=10)
+System.out.println(“x=”+x);
+System.out.println(“x+1=”+(x+1));
+A. x=10
+x+1=11
+B. x=10
+C. x+1=11
+D. 什么都不打印
+10、在Java语言中，下面哪个是逻辑运算符中优先级最高的（A）
+A. !
+B. &&
+C. ||
+D. |
+11、 在一个Java文件中，使用import、class和package的正确顺序是（ A）
+A. package、import、class
+B. class、import、package
+C. import、package、class
+D. package、class、import
+12、 以下程序运行后的结果是（B）
+int a=10;
+int b=20;
+System.out.println(a>b);
+A. true
+B. false
+C. 编译错误
+D.以上都对
+13、在Java中，有下面代码，其中可以正确编译的是（A）
+A. double d = (int)2
+B. int i =1.34
+C. int i = (double)I
+D. 以上都正确
+14、在Java中，关于编码规范的说法，错误的是（B）
+A. 遵守编码规范可以增加代码的可读性
+B. 一行推荐写多条语句
+C. 类名一般使用大写字母开头
+D. 遵守编码规范可以使软件开发和维护更方便
+15、在Java中，下列对自动数据类型转换理解错误的是（D ）
+A.表达式(25 + 12.6)的运算结果为double型
+B.在赋值运算中，当目标类型大于源类型时，会发生自动类型转换
+C.在Java中，小数数据类型兼容整型数据，因而可以发生整型数据到浮点型的自动转换
+D.int型变量必须经过强制数据类型转化，才能赋值给double型变量
+16、 在Java中，Scanner类提供从控制台获取键盘输入的键盘，已知正确实例化Scanner类的对象为input，则下列语句（）能够获得键盘输入的int数据类型的数值（D ）
+A. input.nextDouble()
+B. input.nextChar()
+C. input.nextBoolean()
+D. input.nextInt()
+17、为一个boolean类型变量赋值时，可以使用（ B）方式
+A.Boolean a = 1;
+B.Boolean a = (9 >= 10);
+C.Boolean a = “真”;
+D.Boolean a = = false;
+18、java程序中，main方法的格式正确是（D ）
+A.static void main(String[] args)
+B.public void main(String[] args)
+C.public static main(String[] args)
+D.public static void main(String[] args)
+19、在Java中，下面说法正确的是（D ）
+A.Java基本数据类型有int、char、String等
+B.0_name是一个合法的变量名
+C.name与Name表示同一个变量
+D.变量需要声明并赋值后，才能使用
+20、在Java中，下列说法错误的是（C）
+A.boolean值可以表示真或者假
+B.boolean的值有两个：true、false
+C.boolean值必须与条件判断语句一起使用
+D.1<2的boolean值是true
+二、多选题（共5题，每题1分，共5分）
+21、要使类中的某个成员变量只能被它自身和它的子类访问到，该变量可用(   A )修饰符修饰。
+A.protected
+B.public
+C.private
+D.不加修饰符
+22、以下代码段将创建（    C）个对象。
+	String s1 = “bc”;
+	String s2 = “bc”;
+A.0
+B.1
+C.2
+D.3
+23、下列语句序列执行后，x的值是（    A）
+	int a=3, b=4, x=5;
+	if(++a<b) x=x+1;
+A.5
+B.3
+C.4
+D.6
+24、若数组a定义为int[][] a = new int[3][4]，则a是(    BD)
+A.一维数组
+B.二维数组
+C.三维数组
+D.四维数组
+25、以下(   C )是正确的表达式。
+A.byte = 128;
+B.Boolean = null;
+C.long l = 0xfffL;
+D.double d = 0.9239d;
+26、以下正确的叙述有（AD ）。
+A.在Java程序中，每行中只能写一条语句
+B.在Java程序中，Abc和abc是2个相同的变量
+C.在Java程序中，double类型的变量能够强制转换成char类型
+D.若a是double型变量，a=10是合法的，因为int变量能自动转换成double
+27、 以下关于break, continue说法正确的是（ AB）。
+A. continue结束当次循环而进行下一次循环
+B. break结束当前循环
+C. continue结束当前循环
+D. break结束当次循环而进行下一次循环
+28、在Java中，给字符变量赋值正确的是（ AC）
+A.char c = ‘f’
+B.char c = “f”
+C.char c = 65
+D.char c = 65.5
+29、 以下关于多重if条件结果说法正确的是（ AD ）
+A. 不管有多少个else if块，程序执行时肯定只能走其中一个支线
+B. 多个else if块之间的顺序不可以改变
+C. 多个else if块之间的顺序可以改变，改变之后程序执行结果没有影响
+D. 多个else if块之间的顺序可以改变，改变之后程序执行结果没有影响
+30、 在Java语言中，下列哪些是合法标识符（AB）
+A. Double
+B. _1234
+C. Boolean
+D. Int
+31、 下列属于jsp中注释的有(  AD )
+A．<%--  与 --%>
+B． /
+C． /** 与 **/
+D．  <!-- 与 -->
+32. 下列是jsp作用域的通信对象的有(  ABC    )
+A．Session
+B.  application
+C.pageContext
+D.cookie
+33、 在接口中以下哪条定义是正确的? ( AB  )
+A. void methoda();
+B. public double methoda();
+C. public final double methoda();
+D. static void methoda(double d1);
+34、 下面哪些不是java的简单数据类型？（BC）
+A. short  
+B. Boolean  
+C. Double  
+D. float
+35、以下哪个是Java的关键字（BC）
+A.count
+B.static
+C.void
+D.string
+36、 不能用来修饰interface的有（ACD ）
+A．private  
+B．public  
+C．protected  
+D．static
+37、 下列说法错误的有（ACD ）
+A． 在类方法中可用this来调用本类的类方法
+B． 在类方法中调用本类的类方法时可直接调用
+C． 在类方法中只能调用本类中的类方法
+D． 在类方法中绝对不能调用实例方法
+38、 在接口中以下哪条定义是正确的? ( AB  )
+A. void methoda();
+B. public double methoda();
+C. public final double methoda();
+D. static void methoda(double d1);
+39、 javax.Servlet的包中，属于类的是: （ BC）
+A.Servlet
+B.GenericServlet
+C.ServletException
+D.ServletContext
+40、 哪二种声明防止方法覆盖？（AD）
+A、final void methoda() {}
+B、void final methoda() {}
+C、static void methoda() {}
+D、static final void methoda() {}
+三、判断题（共5题，每题1分，共5分）
+41、String s; 语句创建了一个String对象。（错误）
+A.正确
+B.错误
+42、接口中只能定义一个抽象方法。（错误）
+A.正确
+B.错误
+43、抽象类也可以实现接口。（正确）
+A.正确
+B.错误
+44、JLabel类定义在java.awt包中。（错误）
+A.正确
+B.错误
+45、Java对事件的处理采用的是事件委托模型。（正确）
+A.正确
+B.错误
+46、在Java的方法中定义一个常量要用const关键字。（错误）
+A.正确
+B.错误
+47、抽象方法必须在抽象类中，所以抽象类中的方法都必须是抽象方法。（错误）
+A.正确
+B.错误
+48、用final修饰的变量叫常量。（正确）
+A.正确
+B.错误
+49、描述对象的两个要素是属性和方法。（正确）
+A.正确
+B.错误
+50、Java支持多重继承。（错误）
+A.正确
+B.错误
+
+
